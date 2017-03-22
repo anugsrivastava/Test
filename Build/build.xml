@@ -7,7 +7,7 @@
 	</target>
 	
 	<target name="deployUnpackaged">
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="Target" />
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="src" />
     </target>
 	
 </project>
